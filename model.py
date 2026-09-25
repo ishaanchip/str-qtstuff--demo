@@ -25,6 +25,7 @@ def train_test_split(X, y, test_frac, rng):
     test, train = idx[:n_test], idx[n_test:]
     return X[train], X[test], y[train], y[test]
 
+#mod
 
 class LogisticRegression:
     def __init__(self, lr=0.1, epochs=500):
